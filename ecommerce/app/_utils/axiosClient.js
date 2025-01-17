@@ -12,5 +12,30 @@ const axiosClient = axios.create({
 	}, // Authorization header containing the API key for secured endpoints
 });
 
+// Adding a response interceptor to log all responses 
+axiosClient.interceptors.response.use( 
+  (response) => { 
+    // Log successful responses 
+    console.log('Response Data:', response.data); 
+    console.log('Status Code:', response.status); 
+    console.log('Headers:', response.headers); 
+    return response; // Always return the response object to proceed 
+  }, 
+  (error) => { 
+    if (error.response) { 
+      // Log errors that include a response from the server 
+      console.error('Error Data:', error.response.data); 
+      console.error('Status Code:', error.response.status); 
+      console.error('Headers:', error.response.headers); 
+    } else if (error.request) { 
+      // Log errors where no response was received 
+      console.error('No Response Received:', error.request); 
+    } else { 
+      // Log other errors (e.g., setup errors) 
+      console.error('Error Message:', error.message); 
+    } 
+    return Promise.reject(error); // Reject the promise to propagate the error 
+  } 
+); 
 // Exporting the axios client instance for use in other parts of the application
 export default axiosClient
