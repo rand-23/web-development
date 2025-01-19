@@ -8,7 +8,7 @@ const apiUrl='http://localhost:1337/api'
 const axiosClient = axios.create({
 	baseURL: apiUrl,
 	headers:{
-		Authorization: `bearer ${'apikey'}` // if it is not working like that you have to put bearer here insted of apikey and you will find it in .env.local
+		Authorization: `bearer ${'32cf27a0e4ac03a2cddd3d6c8a7cf8b78aff14a5871aef0217412f0ac2ac94ce2ddb77a2d7b79a83e56b40c36d4314156d5003913145fb8b40e7bc05328fc5d9b9542b470b10e843dfbe986c7b9cc3e029977f0c66159efc268af2681c5e7ed1ed073a7149282c015d2c2a06ebfde0523f40bce6fcd8f46cfa709f3183c6b3dd'}` // if it is not working like that you have to put bearer here insted of apikey and you will find it in .env.local
 	}, // Authorization header containing the API key for secured endpoints
 });
 
