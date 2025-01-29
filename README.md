@@ -27,7 +27,7 @@ Node.js (v20.18.0) is used in this project npm or yarn (This project steps work 
 Each folder of those above have a different dependencies
 #### ecommerce-strapi
 To make this code work without any error Run: npm install, and it will install all of the related dependencies from the package.json file , or you can install them manually, you can open the file package.json and run for each dependency like this example: npm install better-sqlite3
-Also for this folder it is crusial to run this command: npm install better-sqlite3 and you need to install an extension called (SQLite) published by (alexcvzz) to make this code able to read the data from database without errors(this step is so important), the database is in the folder.tmp inside the file data.db if you want click on it it will ask you to open it in anyway, open it with read as a text.
+Also for this folder it is crusial to run this command: npm install better-sqlite3 and you need to install an extension called (SQLite) published by (alexcvzz) to make this code able to read the data from database without errors(istalling this extension is so important), the database is in the folder.tmp inside the file data.db if you want click on it it will ask you to open it in anyway, open it with read as a text.
 #### ecommerce
 To make this code work without any error Run: npm install, and it will install all of the related dependencies from the package.json file , or you can install them manually from the package.json file.
 
