@@ -6,11 +6,12 @@ import { ShoppingCart } from 'lucide-react';
 import { CartContext } from '../_context/CartContext';
 import CartApis from '../_utils/CartApis';
 import Cart from '../_components/Cart'
+import { usePathname } from 'next/navigation';
 
 //This component represents the header section of the application, providing navigation, user authentication actions, and access to the cart.
 
 function Header() {
-
+  const pathname = usePathname();
   const [isLoggedIn, setIsLoggedIn] = useState()
   const [openCart, setOpenCart] = useState(false) 
   const { cart, setCart } = useContext(CartContext)
@@ -44,6 +45,7 @@ function Header() {
   *if authenticated can add to cart
   *if not so take him to the sign in page
    */
+  if (pathname === '/sign-in' || pathname === '/login') return null;
   return ! isLoggedIn && (
     <header className="bg-white">
     <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 shadow-md">
