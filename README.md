@@ -12,13 +12,13 @@ This project is a web application that provides users to search and buy courses 
 * Interface that is straightforward to use for interaction and navigation.
 
 ## Structure of this repository
-The most important folders in this repository are ecommerce-strapi and ecommerce. First, the ecommerce-strapi folder includs the backend and database files and folders that are important, also in this folder there is the (.env) file that you have to create it and add to it the values that I shared with you in the PowerPoint for phase2, these values are so important to make the ecoomerce-strapi able to run in the right way. Second, the ecommerce folder which is also important cause it includes the app codes to create and implement everything for the frontend side, it also includes the most important file (.env.local) to link the backend with frontend, you need to create this file and you will also find the values you need in the PowerPoint that I submitted for phase2. In addition, in the third folder which is called docs_phase3, here is the video of how the application is working.
+The most important folders in this repository are ecommerce-strapi and ecommerce. First, the ecommerce-strapi folder includs the backend and database files and folders that are important, also in this folder there is the (.env) file that you have to create it and add to it the values that I shared with you in the PowerPoint for phase2, I also added them in the zip folder in phase3, these values are so important to make the ecoomerce-strapi able to run in the right way. Second, the ecommerce folder which is also important cause it includes the app codes to create and implement everything for the frontend side, it also includes the most important file (.env.local) to link the backend with frontend, you need to create this file and you will also find the values you need in the PowerPoint that I submitted for phase2, I also added them in the zip folder in phase3. In addition, in the third folder which is called docs_phase3, here is the video of how the application is working.
 
 ## .env file
-.env file is essential to run the Strapi which is used as a backend and connected with the database. You have to create this file in the root of the ecommerce-strapi folder. You will find the values of .env file in the second slide of the PowerPoint for phase2, so you only need to create .env file then copy paste the values from the PowerPoint.
+.env file is essential to run the Strapi which is used as a backend and connected with the database. You have to create this file in the root of the ecommerce-strapi folder. You will find the values of .env file in the second slide of the PowerPoint for phase2, so you only need to create .env file then copy paste the values from the PowerPoint or you can find them in the zip folder that I submitted for phase3.
 
 ## .env.local file
-.env.local file is essential cause it includes all APIs needed in this project. You have to create this file in the root of the ecommerce folder. You will find the values of .env.local file in the third slide of the PowerPoint for phase2, so you only have to create .env.local file then copy paste the values from the PowerPoint.
+.env.local file is essential cause it includes all APIs needed in this project. You have to create this file in the root of the ecommerce folder. You will find the values of .env.local file in the third slide of the PowerPoint for phase2, so you only have to create .env.local file then copy paste the values from the PowerPoint or you can find them in the zip folder that I submitted for phase3.
 
 ## Installing
 ### Prerequisites
@@ -47,7 +47,7 @@ To make this code run correctly you need to pay attention of that open folders (
 *	Please note that you might need to get the subfolder(ecommerce) out of the main file to make it work, so your path should be like this as an example( C:\Users\Dell\web-development-main\web-development-main\ecommerce).
 *	Second, open the folder ecommerce by VS Code from where you download it and without closing ecommerce-strapi (this is so important).
 *	After create the .env.local file and adding its values
-*	In the terminal sied after installing all dependencies, write this command: npm run dev.
+*	In the terminal side after installing all dependencies, write this command: npm run dev.
 *	Will take you to localhost:3000, or localhost:3001 , here where you can see and use the application.
 
 ## Connections
