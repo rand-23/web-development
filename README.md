@@ -35,12 +35,16 @@ To make this code work without any error Run: npm install, and it will install a
 ### Downloading the Code
 Download the code as a zip folder.
 Extract the zip folder to your desired location.
+When you extract the zip folder, it will appear in your side as a web-development.main folder and inside it the subfolders: ecommerce, ecommerce-strapi, docs_phase3 and README.md.
+To make this code run correctly you need to pay attention of that take folders (ecommerce and ecommerce-strapi) out of the main folder then open them as I explain in the Run the code section, that because each folder has its own dependencies.
 ### Run the code
-*	First, open the folder ecommerce-strapi by VS Code or command from where you download it.
+* Please note that you might need to get the subfolder(ecommerce-strapi) out of the main file to make it work, so instead of this path for exapmle( C:\Users\Dell\web-development.main\ecommerce-strapi), your path should be like this (C:\Users\Dell\ecommerce-strapi). And same for ecommerce folder
+*	First, open the folder ecommerce-strapi by VS Code from where you download it
 *	After create the .env file and adding its values
 *	In the terminal sied after installing all dependencies and after installing the extension SQLite, write this command: npm run develop.
 *	Will take you to localhost:1337. Then will ask you to login, you need to use the username and password that I provide you with them in the second slide in the PowerPoint for phase2.
-*	Second, open the folder ecommerce by VS Code or command from where you download it and without closing ecommerce-strapi (this is so important).
+*	Please note that you might need to get the subfolder(ecommerce) out of the main file to make it work, so instead of this path for example( C:\Users\Dell\web-development.main\ecommerce), your path should be like this (C:\Users\Dell\ecommerce).
+*	Second, open the folder ecommerce by VS Code from where you download it and without closing ecommerce-strapi (this is so important).
 *	After create the .env.local file and adding its values
 *	In the terminal sied after installing all dependencies, write this command: npm run dev.
 *	Will take you to localhost:3000, or localhost:3001 , here where you can see and use the application.
