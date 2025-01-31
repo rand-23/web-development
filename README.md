@@ -49,7 +49,7 @@ To make this code run correctly you need to pay attention of that open folders (
 *	In the terminal side **after installing all dependencies**, write this **command: npm run dev**.
 *	Will take you to **localhost:3000**, or **localhost:3001**, here where you can see and use the application.
 ### Note
-**Please note that in case you face a problem when you run npm install, so make sure of your path if it is correct, should be like this as an exapmle( C:\Users\Dell\web-development-main\web-development-main\ecommerce-strapi) or you might take the ecommerce and ecommerce-strapi folders out of the main then you can run them.**
+Please note that in case you face a problem when you run npm install, so make sure of your path if it is correct, should be like this as an exapmle( C:\Users\Dell\web-development-main\web-development-main\ecommerce-strapi) or you might take the ecommerce and ecommerce-strapi folders out of the main then you can run them.
 
 ## Connections
 For any questions or suggestions, feel free to reach out to me at randshamsaldin01@gmail.com
